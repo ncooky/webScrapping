@@ -2,10 +2,11 @@
 
 - `composer install`
 - `npm install`
-- `php artisan serve`
 
 ### Database setting
 
+- `touch database/database.sqlite`
+- set up the `.env` for database connection like below :
 ```
 just using this environment for database setting
 
@@ -18,4 +19,5 @@ DB_CONNECTION=sqlite
 
 everything commented but don't DB_CONNECTION, set the DB_CONNECTION=sqlite
 ```
-
+- `php artisan migrate`
+- `php artisan serve`
