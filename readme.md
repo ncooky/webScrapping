@@ -1,4 +1,4 @@
-### How To Run
+### Before Run
 
 - `composer install`
 - `npm install`
@@ -20,4 +20,7 @@ DB_CONNECTION=sqlite
 everything commented but don't DB_CONNECTION, set the DB_CONNECTION=sqlite
 ```
 - `php artisan migrate`
+
+### How to run
 - `php artisan serve`
+
