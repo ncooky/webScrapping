@@ -15,5 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call(WebsiteSedeer::class);
         $this->call(ItemSchemaSeeder::class);
         $this->call(CategorySeeder::class);
+        $this->call(LinkSeeder::class);
+        $this->call(ArticleSeeder::class);
     }
 }
