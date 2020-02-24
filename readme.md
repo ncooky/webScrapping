@@ -19,7 +19,7 @@ DB_CONNECTION=sqlite
 
 everything commented but don't DB_CONNECTION, set the DB_CONNECTION=sqlite
 ```
-- `php artisan migrate`
+- `php artisan migrate --seed`
 
 ### How to run
 - `php artisan serve`
