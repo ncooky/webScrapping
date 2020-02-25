@@ -15,7 +15,7 @@
         "laravel/tinker": "^1.0",
         "ext-bcmath": "*",
         "ext-mcrypt": "*",
-        "ext-sqlite3" : "*"
+        "ext-pdo_sqlite" : "*"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
